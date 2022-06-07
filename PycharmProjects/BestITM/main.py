@@ -150,5 +150,6 @@ def text(message):
     if message.text == "Ielts🤩":
         bot.send_message(message.chat.id, "Siz ushbu kursni tamomlaganingizdan so'ng ingliz tilini o'rganishning so'nggi bosqichiga yetib keldingiz, \nsiz IELTS imtihonidan kamida 6,0 ball to'plash imkoniyatiga ega bo'lasiz. Bu erda siz imtihondan o'tishning barcha tafsilotlarini muhokama qilasiz.😎\n<b>Narxi:200.000 so'm</b>", parse_mode="HTML")
 
+
 if __name__ == '__main__':
     bot.polling(none_stop=True)
